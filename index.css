@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 body {
+  margin: 0px;
+  align-items: center;
+  height: 100vh;
   display: flex;
   justify-content: center;
   background: hsl(200, 6%, 10%);
@@ -18,14 +21,14 @@ button {
   flex-wrap: wrap;
   width: 155px;
   justify-content: space-between;
-  height: 165px;
+  height: 160px;
 }
 #display {
   padding: 15px 10px 5px 10px;
   width: 100%;
   border: 2px solid black;
   border-radius: 5px;
-  background: hsl(200, 6%, 20%);
+  background: hsl(200, 6%, 10%);
   margin-bottom: 5px;
   font-size: 18pt;
   text-align: right;
@@ -35,8 +38,12 @@ button {
   
 }
 #wrap {
-  width: 165px;
+  width: 170px;
   display: flex;
   flex-direction: column;
   padding: 5px;
+  padding-bottom: 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: hsl(200, 6%, 20%);
 }
